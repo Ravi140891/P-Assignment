@@ -34,7 +34,7 @@ span:hover{
 }
 .child1{
     width: 50%;
-    height: 700px;
+    height: 100%;
     border: 1px solid #cef2e0;
     margin-top: 6px;
     padding: 8px;
@@ -54,11 +54,13 @@ span:hover{
     font-size: 10px;
     float: left;
     margin-bottom: 30px;
+    color: #202122;
 }
 .para{
     font-size: 12px;
     width: 100%;
     line-height:19px;
+    color: #202122;
 }
 .para2{
     direction: rtl;
@@ -77,12 +79,11 @@ span{
 .child2{
     float: right;
     width: 49%;
-    height: 700px;
+    height: 100%;
     border: 1px solid #cedff2;
     margin-top: 6px;
     padding: 8px;
     background-color: #f5faff;
-    display: inline-block;
 }
 .child2_heading{
     font-family: sans-serif;
@@ -93,8 +94,18 @@ span{
 }
 .image3{
     width: 122px;
-    height: 150px;
-    font-size: small;
+    height: 90px;
+    font-size: 10px;
+    color: #202122;
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+.image4{
+    width: 135px;
+    height: 127px;
+    font-size: 10px;
+    color: #202122;
     float: right;
     margin-bottom: 30px;
     margin-right: 0;
